@@ -7,7 +7,7 @@ const deleteStudents = require('./crud-operation/delete');
 
 //creat operation
 
-createStudents('Dipali', 21);
+// createStudents('Dipali', 21);
 // createStudents('Saryu', 21);
 // createStudents('vaibhav', 18);
 // createStudents('jit', 23);
@@ -20,6 +20,6 @@ readStudents();
 
 // updateStudents({ age:30 }, { $set: { age: 21 } });
 
-// deleteStudents({}) delete all records
+ deleteStudents('jit',23) //delete one record
 
-// deleteStudents({name:'jit'});
+// deleteStudents();// delete all records
